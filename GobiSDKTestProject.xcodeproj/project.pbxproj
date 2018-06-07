@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F126E3D820C97A4B009616B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F126E3D720C97A4B009616B3 /* AppDelegate.swift */; };
+		F126E3DD20C97A4B009616B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F126E3DB20C97A4B009616B3 /* Main.storyboard */; };
+		F126E3DF20C97A4D009616B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F126E3DE20C97A4D009616B3 /* Assets.xcassets */; };
+		F126E3E220C97A4D009616B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F126E3E020C97A4D009616B3 /* LaunchScreen.storyboard */; };
+		F126E3EE20C97BA5009616B3 /* proximanovasoft-regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F126E3EA20C97BA5009616B3 /* proximanovasoft-regular.otf */; };
+		F126E3EF20C97BA5009616B3 /* proxima-nova-soft-semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F126E3EB20C97BA5009616B3 /* proxima-nova-soft-semibold.otf */; };
+		F126E3F020C97BA5009616B3 /* proximanovasoft-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F126E3EC20C97BA5009616B3 /* proximanovasoft-medium.otf */; };
+		F126E3F120C97BA5009616B3 /* Proxima Nova Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = F126E3ED20C97BA5009616B3 /* Proxima Nova Thin.otf */; };
+		F126E3F420C97C12009616B3 /* GobiSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F126E3F220C97BE2009616B3 /* GobiSDK.framework */; };
+		F126E3F520C97C12009616B3 /* GobiSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F126E3F220C97BE2009616B3 /* GobiSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F126E3F620C97C12009616B3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F126E3F520C97C12009616B3 /* GobiSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F126E3D420C97A4B009616B3 /* GobiSDKTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GobiSDKTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F126E3D720C97A4B009616B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F126E3DC20C97A4B009616B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F126E3DE20C97A4D009616B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F126E3E120C97A4D009616B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F126E3E320C97A4D009616B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F126E3EA20C97BA5009616B3 /* proximanovasoft-regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanovasoft-regular.otf"; sourceTree = "<group>"; };
+		F126E3EB20C97BA5009616B3 /* proxima-nova-soft-semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proxima-nova-soft-semibold.otf"; sourceTree = "<group>"; };
+		F126E3EC20C97BA5009616B3 /* proximanovasoft-medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanovasoft-medium.otf"; sourceTree = "<group>"; };
+		F126E3ED20C97BA5009616B3 /* Proxima Nova Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Thin.otf"; sourceTree = "<group>"; };
+		F126E3F220C97BE2009616B3 /* GobiSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GobiSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F126E3D120C97A4B009616B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F126E3F420C97C12009616B3 /* GobiSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F126E3CB20C97A4B009616B3 = {
+			isa = PBXGroup;
+			children = (
+				F126E3D620C97A4B009616B3 /* GobiSDKTestProject */,
+				F126E3D520C97A4B009616B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F126E3D520C97A4B009616B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F126E3D420C97A4B009616B3 /* GobiSDKTestProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F126E3D620C97A4B009616B3 /* GobiSDKTestProject */ = {
+			isa = PBXGroup;
+			children = (
+				F126E3E920C97BA5009616B3 /* fonts */,
+				F126E3D720C97A4B009616B3 /* AppDelegate.swift */,
+				F126E3DB20C97A4B009616B3 /* Main.storyboard */,
+				F126E3DE20C97A4D009616B3 /* Assets.xcassets */,
+				F126E3E020C97A4D009616B3 /* LaunchScreen.storyboard */,
+				F126E3E320C97A4D009616B3 /* Info.plist */,
+				F126E3F220C97BE2009616B3 /* GobiSDK.framework */,
+			);
+			path = GobiSDKTestProject;
+			sourceTree = "<group>";
+		};
+		F126E3E920C97BA5009616B3 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F126E3EA20C97BA5009616B3 /* proximanovasoft-regular.otf */,
+				F126E3EB20C97BA5009616B3 /* proxima-nova-soft-semibold.otf */,
+				F126E3EC20C97BA5009616B3 /* proximanovasoft-medium.otf */,
+				F126E3ED20C97BA5009616B3 /* Proxima Nova Thin.otf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F126E3D320C97A4B009616B3 /* GobiSDKTestProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F126E3E620C97A4D009616B3 /* Build configuration list for PBXNativeTarget "GobiSDKTestProject" */;
+			buildPhases = (
+				F126E3D020C97A4B009616B3 /* Sources */,
+				F126E3D120C97A4B009616B3 /* Frameworks */,
+				F126E3D220C97A4B009616B3 /* Resources */,
+				F126E3F620C97C12009616B3 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GobiSDKTestProject;
+			productName = GobiSDKTestProject;
+			productReference = F126E3D420C97A4B009616B3 /* GobiSDKTestProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F126E3CC20C97A4B009616B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = gobi;
+				TargetAttributes = {
+					F126E3D320C97A4B009616B3 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = F126E3CF20C97A4B009616B3 /* Build configuration list for PBXProject "GobiSDKTestProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F126E3CB20C97A4B009616B3;
+			productRefGroup = F126E3D520C97A4B009616B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F126E3D320C97A4B009616B3 /* GobiSDKTestProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F126E3D220C97A4B009616B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F126E3E220C97A4D009616B3 /* LaunchScreen.storyboard in Resources */,
+				F126E3EE20C97BA5009616B3 /* proximanovasoft-regular.otf in Resources */,
+				F126E3DF20C97A4D009616B3 /* Assets.xcassets in Resources */,
+				F126E3F020C97BA5009616B3 /* proximanovasoft-medium.otf in Resources */,
+				F126E3DD20C97A4B009616B3 /* Main.storyboard in Resources */,
+				F126E3EF20C97BA5009616B3 /* proxima-nova-soft-semibold.otf in Resources */,
+				F126E3F120C97BA5009616B3 /* Proxima Nova Thin.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F126E3D020C97A4B009616B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F126E3D820C97A4B009616B3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F126E3DB20C97A4B009616B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F126E3DC20C97A4B009616B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F126E3E020C97A4D009616B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F126E3E120C97A4D009616B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F126E3E420C97A4D009616B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F126E3E520C97A4D009616B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F126E3E720C97A4D009616B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GobiSDKTestProject",
+				);
+				INFOPLIST_FILE = GobiSDKTestProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.gobi.GobiSDKTestProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F126E3E820C97A4D009616B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GobiSDKTestProject",
+				);
+				INFOPLIST_FILE = GobiSDKTestProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.gobi.GobiSDKTestProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F126E3CF20C97A4B009616B3 /* Build configuration list for PBXProject "GobiSDKTestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F126E3E420C97A4D009616B3 /* Debug */,
+				F126E3E520C97A4D009616B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F126E3E620C97A4D009616B3 /* Build configuration list for PBXNativeTarget "GobiSDKTestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F126E3E720C97A4D009616B3 /* Debug */,
+				F126E3E820C97A4D009616B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F126E3CC20C97A4B009616B3 /* Project object */;
+}

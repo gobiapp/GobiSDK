@@ -1,0 +1,4 @@
+framework module GobiSDK {
+    header "GobiSDK-Swift.h"
+    requires objc
+}
